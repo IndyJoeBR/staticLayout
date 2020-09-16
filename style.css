@@ -1,0 +1,253 @@
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  line-height: 1em;
+  font-weight: normal;
+}
+
+p {
+  margin: 0 0 2em;
+}
+
+body {
+  font-family: "Microsoft Sans Serif", Candara, sans-serif;
+  background-color: #ffff;
+  color: #434146;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+/* *****   NAVIGATION BAR   ***** */
+
+.navBarPositioning {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+
+.flexbox-container_NavBar {
+  display: flex;
+  height: 70px;
+  background-color: transparent;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.flexbox-item_NavBar {
+  margin: 10px;
+}
+
+.flexbox-item_NavBar-LOGO {
+  flex-shrink: 0;
+  flex-grow: 0;
+  min-height: auto;
+}
+
+#navBarLogo {
+  height: 44px;
+}
+
+
+.flexbox-item_NavBar-empty {
+  flex-shrink: 0;
+  flex-grow: 1;
+  min-height: 16px;
+}
+
+.flexbox-item_NavBar-links {
+  width: 10px;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.flexbox-item_NavBar-link-container {
+  width: 100px;
+  height: 16px;
+  text-align: center;
+  padding: 4px 6px 4px 6px;
+}
+
+
+.flexbox-item_NavBar-OpenKast {
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+#OpenKastLinkBox {
+  font-size: 14px;
+  width: 90px;
+  height: 16px;
+  text-align: center;
+  border: 1px solid #f4f4f4;
+  padding: 4px 6px 4px 6px;
+}
+
+.NavBarText {
+  color: #f4f4f4;
+  font-weight: bold;
+}
+
+
+
+/* *****   OPEN KAST ORANGE BUTTON   ***** */
+
+.flexbox-item_Orange-Button {
+  width: 220px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 5px;
+  background-color:  #FE9000;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 0px solid #FE9000;
+  transition: border .03s;
+  padding: 10px 0px 0px 0px;
+}
+
+.flexbox-item_Orange-Button:hover {
+  border: 1px solid #FE9000;
+}
+
+
+
+/* *****   WATCH PARTIES MADE EASY   ***** */
+
+.WatchPartyMadeEasy {
+  color:  #f4f4f4;
+}
+
+.flexbox-container_WatchPartyMadeEasy {
+  display: flex;
+  height: 850px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  background-color: #2B293D;
+  background-image: url("./Assets/WatchPartyMadeEasy-background.jpg");
+  background-size: cover;
+
+}
+
+.flexbox-item_WatchPartyMadeEasy {
+  margin: 15px;
+}
+
+.flexbox-item_WatchParty_image-container {
+  margin: 85px 0px 0px 40px;
+}
+
+#flexbox-item_WatchParty_image {
+  height: 480px;
+  width: auto;
+}
+
+h1 {
+  font-size: 44px;
+  font-weight: bolder;
+}
+
+h3 {
+  margin: 10px;
+  text-align: center
+}
+
+
+
+/* *****   Featured In   ***** */
+
+.FeaturedIn {
+  color: black;
+  height: 600px;
+  background-color: #f1f1f1;
+}
+
+.flexbox-container_FeaturedIn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flexbox-item_FeaturedIn-headline {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 50px 0px 0px 50px;
+}
+
+.flexbox-item_FeaturedIn-3x2-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.flexbox-item_FeaturedIn-3x2-gridContainer {
+  background-color: transparent;
+  padding: 40px 60px 40px 60px;
+  grid-gap: 60px;
+}
+
+.flexbox-item_FeaturedIn-quote {
+  font-size: 18px;
+  font-style: italic;
+  padding: 20px 0px px 20px;
+}
+
+.flexbox-item_FeaturedIn-attribution {
+  font-size: 14px;
+  font-style: italic;
+  text-align: right;
+}
+
+.flexbox-item_FeaturedIn-quote_color {
+  color:#909090;
+}
+
+
+
+/* *****   WHAT IS KAST   ***** */
+
+.WhatIsKast {
+  color: white;
+  margin: 0px 0px 0px 50px;
+}
+
+.flexbox-container_WhatIsKast {
+  display: flex;
+  height: 500px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #2B293D;
+  background-image: url("./Assets/WhatIsKast-background.jpg");
+  background-size: cover;
+  padding: 20px 0px 0px 20px;
+  margin: 0px 0px 0px 50px;
+}
+
+.flexbox-item_WhatIsKast {
+  padding: 40px 0px 0px 20px;
+}
+
+.flexbox-item_WhatIsKast_text-container {
+  font-size: 18px;
+}
+
+.WhatIsKast_OrangeBtn-spacing {
+  margin: 20px 0px 0px 20px;
+}
